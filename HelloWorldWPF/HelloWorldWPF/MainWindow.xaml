@@ -24,7 +24,7 @@
                     <RotateTransform Angle="-25.352"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!!! "/></TextBlock>
+            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!"/><LineBreak/><Run Text="!"/><LineBreak/><Run Text="! "/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Window>
