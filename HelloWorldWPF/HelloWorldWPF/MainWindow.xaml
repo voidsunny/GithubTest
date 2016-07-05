@@ -25,7 +25,16 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!!! "/></TextBlock>
-        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="235,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="175" Width="259" FontWeight="Bold" FontSize="36">
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="325,85,-67,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="175" Width="259" FontWeight="Bold" FontSize="36">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-25.352"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!!! "/></TextBlock>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="72,163,0,-19" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="175" Width="259" FontWeight="Bold" FontSize="36" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
