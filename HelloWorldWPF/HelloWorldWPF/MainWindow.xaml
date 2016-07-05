@@ -15,8 +15,8 @@
                     <RotateTransform Angle="-25.352"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!!! "/></TextBlock>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="269,60,-11,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="175" Width="259" FontWeight="Bold" FontSize="36" Foreground="#FF83DA8B">
+            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run/><LineBreak/><Run Text="sunny"/><Run Text="!!! "/></TextBlock>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="254,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="175" Width="259" FontWeight="Bold" FontSize="36" Foreground="#FF83DA8B">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
