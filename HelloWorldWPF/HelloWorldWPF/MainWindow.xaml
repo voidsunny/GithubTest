@@ -7,16 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="134,124,0,0" TextWrapping="Wrap" Text="Hello World!!! " VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="73" Width="273" FontWeight="Bold" FontSize="36">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="147,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="132" Width="248" FontWeight="Bold" FontSize="36">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="16.091"/>
+                    <RotateTransform Angle="-25.352"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform>
-        </TextBlock>
+            </TextBlock.RenderTransform><Run Text="Hello "/><LineBreak/><Run Text="World!!! "/></TextBlock>
 
     </Grid>
 </Window>
